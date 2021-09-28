@@ -1,0 +1,43 @@
+header ul{
+    list-style-type: none;
+}
+
+header nav{
+    background-color:#f1f1f1;
+}
+
+header #quick-nav{
+    font-size: small;
+}
+
+.active li{
+    color: red !important;
+}
+
+.carousel-item:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6));
+  }
+
+  .carousel .carousel-item {
+    height: 460px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+  }
+
+  #catalog{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 10px 10px;
+  }
